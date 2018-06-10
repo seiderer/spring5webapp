@@ -40,10 +40,14 @@ public class Author {
                 '}';
     }
 
+    public Author() {
+    }
+
     @Override
     public int hashCode() {
 
         return Objects.hash(id);
+
     }
 
     public Long getId() {
